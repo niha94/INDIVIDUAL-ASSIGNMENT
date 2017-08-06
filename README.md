@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+How It Work
 
-You can use the [editor on GitHub](https://github.com/niha94/INDIVIDUAL-ASSIGNMENT/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/niha94/INDIVIDUAL-ASSIGNMENT/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The system interact with the SQLite database read and write directly from the database files stored on disk. 
+The PHP code in the file name 'db_connection.php' is created to connect the system with SQLite database. 
+After code is run, the database file name ‘myDB.db’ will be automatically created in the folder.That is mean the table is already created in the database.
+Every PHP file must include with the 'include "db_connection.php" to make it connected with the SQLite database.
+Then, the HTML code is write in PHP file to display a form for user to insert, update and delete the details such as name, age  and email.
+Wherease, the PHP code is write to get the data from the method post int the HTML code.
+All the query such as SELECT, INSERT, UPDATE and DELETE is also write in the PHP file to manipulate the data in database. 
